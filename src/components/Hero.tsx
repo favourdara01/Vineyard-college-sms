@@ -1,5 +1,4 @@
-// src/components/Hero.tsx
-import Image from "next/image"; // Fixed: Added missing Image import
+import Image from "next/image"; 
 import Link from "next/link";
 import Typewriter from "@/components/Typewriter";
 
@@ -71,7 +70,7 @@ export default function Hero() {
 
           <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden border border-emerald-900/50 bg-slate-900 shadow-2xl">
             <Image
-              src="/hero-student.jpg" // Fixed: Direct reference to public folder file
+              src="/hero-student.jpg" 
               alt="Vineyard College Students"
               fill
               priority
